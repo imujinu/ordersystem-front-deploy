@@ -14,7 +14,7 @@
           </div>
         </v-col>
         <v-col class="text-center">
-          <v-btn :to="'/'">Devops shop</v-btn>
+          <v-btn :to="'/'">Devops shop automation</v-btn>
         </v-col>
         <v-col class="d-flex justify-end">
           <v-btn v-if="isLogined" :to="'/order/cart'"
