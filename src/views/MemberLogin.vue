@@ -53,7 +53,7 @@ export default {
           password: this.password,
         };
         const response = await axios.post(
-          `${process.env.VUE_APP_API_BASE_URL}/member-service/member/doLogin`,
+          `${process.env.VUE_APP_API_BASE_URL}/member/doLogin`,
           data
         );
         const result = getResultData(response);
